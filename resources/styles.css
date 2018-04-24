@@ -4,6 +4,77 @@
     text-align: center;
 }
 
+h1 {
+    color: #0D6CFF;
+}
+
 h2 {
+    color: #0CCAE8;
     text-align: left;
+}
+
+li {
+    color: #397c60;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #397c60;
+}
+
+a:hover {
+    -webkit-animation: zomg 2s infinite;
+    animation: zomg 2s infinite;
+}
+
+@-webkit-keyframes zomg {
+    0%,
+    100% {
+        color: #0D6CFF;
+    }
+    16% {
+        color: #0C85E8;
+    }
+    32% {
+        color: #0077ff;
+    }
+    48% {
+        color: #0c3fe865;
+    }
+    64% {
+        color: #3e33d8;
+    }
+    80% {
+        color: #0010D1;
+    }
+}
+
+@keyframes zomg {
+    100% {
+        color: #0D6CFF;
+    }
+    16% {
+        color: #0C85E8;
+    }
+    32% {
+        color: #0077ff;
+    }
+    48% {
+        color: #0c3fe865;
+    }
+    64% {
+        color: #3e33d8;
+    }
+    80% {
+        color: #0010D1;
+    }
+}
+
+.landing-page {
+    height: 100%;
+    width: 100%;
 }
