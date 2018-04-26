@@ -20,6 +20,8 @@ li {
 a {
     color: blueviolet;
     text-decoration: none;
+    display: inline-block;
+    /*creating links at heeader of page that are next to each other along the same block */
 }
 
 a:visited {
@@ -77,4 +79,9 @@ a:hover {
 .landing-page {
     height: 100%;
     width: 100%;
+    position: fixed;
+}
+
+.title {
+    position: relative;
 }
